@@ -1,0 +1,28 @@
+
+
+Other methods:
+
+    private int traversalCounter = 0;
+    public int getTraversalCounter() {
+        return traversalCounter;
+    }
+
+    private boolean shouldStartFromHead(String lastName) {
+        // Assuming names are sorted in ascending order and using 'M' as the middle point
+        return lastName.compareToIgnoreCase("M") <= 0;
+    }
+
+    public boolean isEmailUsed(String email) {};
+    private void insertNode(Node newNode, Node current, boolean insertBefore) {}
+    public boolean deleteEmailFromContact(String lastName, String firstName, String email) {}
+    public int getNumberOfContacts() {}
+    public List<String> getEmailAddressesForContact(String lastName, String firstName) {}
+    public boolean contains(T data) {}
+    public int size() {}
+    public boolean isEmpty() {}
+
+
+
+
+
+

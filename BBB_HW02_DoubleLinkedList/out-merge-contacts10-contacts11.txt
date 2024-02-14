@@ -1,0 +1,42 @@
+
+/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/bin/java -javaagent:/Users/ingrid/Applications/IntelliJ IDEA Ultimate.app/Contents/lib/idea_rt.jar=59817:/Users/ingrid/Applications/IntelliJ IDEA Ultimate.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/ingrid/Desktop/CLS/0-2024S-2720/BBB_HW02_05/target/classes datastructures.DriverMerge
+Using default files: contacts10.csv & contacts10.csv
+DriverMerge <contacts10.csv> <contacts11.csv>
+
+List 1:
+Contact{lastName='Cotterell', firstName='Michael', emailAddresses=[mepcott@uga.edu]}
+Contact{lastName='Funk', firstName='Shelby', emailAddresses=[funk@uga.edu]}
+Contact{lastName='Hybinette', firstName='Maria', emailAddresses=[maria.hybinette@mac.com, ingrid@uga.edu]}
+Contact{lastName='Lamarca', firstName='Salvatore', emailAddresses=[]}
+Contact{lastName='﻿Bhandarkar', firstName='Bhandarkar', emailAddresses=[suchi@uga.edu, suchendra.bhandarkar@cs.uga.edu]}
+Contact{lastName='Taha', firstName='Thiab', emailAddresses=[trtaha@uga.edu, thiab.taha@gmail.com]}
+Contact{lastName='Peng', firstName='Hao', emailAddresses=[penghga@uga.edu, penghga@gmail.edu]}
+
+List 2:
+Contact{lastName='Funk ', firstName='Shelby', emailAddresses=[shelby13@uga.edu, shelby.funk@mac.com, shf@gmail.com]}
+Contact{lastName='Guan', firstName='Le', emailAddresses=[leguan@uga.edu, le.guan@cs.uga.edu]}
+Contact{lastName='Jayalath', firstName='Hemadri', emailAddresses=[hemadri.jayalath@uga.edu, hemadri.jayalath@mac.com]}
+Contact{lastName='Keshtgari', firstName='Manijeh', emailAddresses=[M.keshtgari@uga.edu, manijeh.keshtgari@cs.uga.edu]}
+Contact{lastName='﻿Hollingsworth ', firstName='Bill', emailAddresses=[billh@uga.edu, bill.hollingsworth@mac.com]}
+Contact{lastName='Wang', firstName='Wenwen', emailAddresses=[wenwen@uga.edu, wenwen.wang@cs.uga.edu]}
+Contact{lastName='Miller', firstName='John', emailAddresses=[jamill@uga.edu, john.miller@mac.com, jam@cs.uga.edu]}
+Contact{lastName='Yuan', firstName='Geng', emailAddresses=[geng.yuan@uga.edu]}
+
+Merging List 1 into List 2:
+Contact{lastName='Cotterell', firstName='Michael', emailAddresses=[mepcott@uga.edu]}
+Contact{lastName='Funk', firstName='Shelby', emailAddresses=[funk@uga.edu]}
+Contact{lastName='Funk ', firstName='Shelby', emailAddresses=[shelby13@uga.edu, shelby.funk@mac.com, shf@gmail.com]}
+Contact{lastName='Guan', firstName='Le', emailAddresses=[leguan@uga.edu, le.guan@cs.uga.edu]}
+Contact{lastName='Hybinette', firstName='Maria', emailAddresses=[maria.hybinette@mac.com, ingrid@uga.edu]}
+Contact{lastName='Jayalath', firstName='Hemadri', emailAddresses=[hemadri.jayalath@uga.edu, hemadri.jayalath@mac.com]}
+Contact{lastName='Keshtgari', firstName='Manijeh', emailAddresses=[M.keshtgari@uga.edu, manijeh.keshtgari@cs.uga.edu]}
+Contact{lastName='Lamarca', firstName='Salvatore', emailAddresses=[]}
+Contact{lastName='Hollingsworth ', firstName='Bill', emailAddresses=[billh@uga.edu, bill.hollingsworth@mac.com]}
+Contact{lastName='Wang', firstName='Wenwen', emailAddresses=[wenwen@uga.edu, wenwen.wang@cs.uga.edu]}
+Contact{lastName='Miller', firstName='John', emailAddresses=[jamill@uga.edu, john.miller@mac.com, jam@cs.uga.edu]}
+Contact{lastName='Yuan', firstName='Geng', emailAddresses=[geng.yuan@uga.edu]}
+Contact{lastName='Peng', firstName='Hao', emailAddresses=[penghga@uga.edu, penghga@gmail.edu]}
+Contact{lastName='Taha', firstName='Thiab', emailAddresses=[trtaha@uga.edu, thiab.taha@gmail.com]}
+Contact{lastName='Bhandarkar', firstName='Bhandarkar', emailAddresses=[suchi@uga.edu, suchendra.bhandarkar@cs.uga.edu]}
+
+Process finished with exit code 0

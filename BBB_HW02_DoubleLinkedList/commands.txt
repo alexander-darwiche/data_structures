@@ -1,0 +1,11 @@
+addContact 	Doe, John, john.doe@email.com
+addContact 	Doe, John, john.doe@email.com
+deleteContact 	Doe, John
+lengthContacts
+getEmailAddress Doe, Jane
+getEmailAddress Hybinette, Maria
+deleteEmail Hybinette, Maria, ingrid@uga.edu
+addContact Doe, John, john.doe@email.com
+addContact Doe, John, john@example.com
+isEmptyContactList
+deleteEmail Doe, John, john@example.com

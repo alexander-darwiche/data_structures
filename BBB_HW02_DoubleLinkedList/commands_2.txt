@@ -1,0 +1,27 @@
+lengthContacts
+printcontacts
+deleteContact Bhandarkar, Suchi
+lengthContacts
+printcontacts
+deleteContact Cotterell, Michael
+lengthContacts
+printcontacts
+deleteContact Doe, John
+lengthContacts
+printcontacts
+deleteContact Funk, Shelby
+lengthContacts
+printcontacts
+deleteContact Hybinette, Maria
+lengthContacts
+printcontacts
+deleteContact Lamarca, Salvatore
+lengthContacts
+printcontacts
+deleteContact Peng, Hao
+lengthContacts
+printcontacts
+deleteContact Taha, Thiab
+lengthContacts
+printcontacts
+isEmptyContactList
