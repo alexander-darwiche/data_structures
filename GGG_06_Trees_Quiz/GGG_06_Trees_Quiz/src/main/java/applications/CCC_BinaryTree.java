@@ -409,6 +409,42 @@ public class CCC_BinaryTree {
     }
 
 
+    public boolean isBST(Node root) {
+        if (root == null) {
+            // return;
+            return false;
+        }
+
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        Node current;
+
+        while (!stack.isEmpty()) {
+            // **** LEFT
+            current = stack.pop();
+            // Check Left
+            if (current.left != null) {
+                if (current.left.value > current.value) {
+                    System.out.println("It is NOT a BST");
+                    return false;
+                } else {
+                    stack.push(current.left);
+                }
+            }
+
+            if (current.right != null) {
+                if (current.right.value < current.value) {
+                    System.out.println("It is NOT a BST");
+                    return false;
+                } else {
+                    stack.push(current.right);
+                }
+            }
+
+        }
+        System.out.println("It is a BST");
+        return true;
+    }
 
 
 
@@ -424,14 +460,23 @@ public class CCC_BinaryTree {
 
         // Build a tree without concern of ordering children
         //  is not a binary search tree
-        Node root = new Node(1);
-        root.left = new Node(2);
-        root.right = new Node(3);
+        Node root = new Node(100);
+        root.left = new Node(20);
+        root.right = new Node(300);
         root.left.left = new Node(4);
-        root.left.right = new Node(5);
+        root.right.right = new Node(500);
 
         System.out.println("Tree Pretty Print:");
         tree.prettyPrint(root);
+
+        int[] inOrder = tree.inOrderTraversal(root);
+        System.out.println("\nInOder " + Arrays.toString(inOrder));
+        if (tree.isBST(root)){
+            System.out.println("Double Check: It is a BST");
+        } else {
+            System.out.println("Double Check: It is a NOT BST");
+        }
+
 
         // see Driver for more methods in action ---
     }
